@@ -168,3 +168,32 @@ header nav a:hover{
 .article-button a{
     margin: 20px auto;
 }
+/* blog */
+
+#testimonials {
+    background-color: #fff;
+    text-align: center;
+}
+#testimonials h2{
+    padding: 15px;
+    font-size: 1.5em
+}
+#testimonials h3{
+    font-size: 1.4em;
+    padding: 10px 15px;
+}
+.testimonial {
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.testimonial img {
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0,0,0.2);
+}
+.testimonial p {
+    padding: 10px 0px;
+}
