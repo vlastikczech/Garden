@@ -32,6 +32,9 @@ header nav a{
 header nav a:hover{
     background-color: rgba(0,0,0,.1);
 }
+header .active{
+    background-color: rgba(0,0,0,.2);
+}
 /* header */
 
 #intro{
@@ -205,7 +208,7 @@ footer{
 }
 
 footer .services ul{
-    text-decoration: none;
+    list-style-type: none;;
 }
 footer .services li {
     padding: 5px 0px;
