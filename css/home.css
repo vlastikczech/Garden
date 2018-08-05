@@ -32,3 +32,37 @@ header nav a{
 header nav a:hover{
     background-color: rgba(0,0,0,.1);
 }
+/* header */
+
+#intro{
+    min-height: 350px;
+    background-image: url(../img/garden.jpg);
+    background-size: cover;
+}
+.intro-text{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.intro-text h2{
+    color: #fff;
+    padding: 15px;
+    background-color: rgba(0,0,0,.3);
+}
+.intro-text h3{
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    padding: 10px;
+}
+.intro-text .call-to-action a{
+    background-color: #55C18F;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    margin: 20px 0px 50px;;
+    text-decoration: none;
+    transition: box-shadow 0.4s;
+}
+.intro-text .call-to-action a:hover{
+    box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+}
