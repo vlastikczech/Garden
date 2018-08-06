@@ -260,6 +260,9 @@ footer .contact-form button:hover{
         display: inline-block;
         width: 60%;
     }
+    #welcome{
+        text-align: center;
+    }
     #intro{
         height: 500px;
     }
