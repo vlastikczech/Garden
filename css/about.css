@@ -83,7 +83,56 @@ header .active{
 .call-to-action a:hover{
     box-shadow: 0px 0px 15px rgba(0,0,0,.2);
 }
+/**** free words about us */
+#history{
+    background-color: #fff;
+    text-align: center;
+}
+#history h2{
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 30px;
+}
+.event{
+    margin: 10px;
+}
+.event p{
+    padding: 5px;
+}
+.event-date{
+    color: #55C18F;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.event-title{
+    color: #55C18F;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+/**** history */
 
+#our-team{
+    text-align: center;
+}
+#our-team h2{
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 30px;
+}
+.member{
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+}
+
+.member img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+}
 
 footer{
     background-color: black;
